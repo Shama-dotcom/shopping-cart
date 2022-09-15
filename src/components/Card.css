@@ -1,0 +1,110 @@
+/* /* 
+img {
+  height: 4rem;
+} */
+
+.title {
+  font-size: 12px;
+  color: rgb(47, 61, 182);
+}
+
+/* .details {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+} */
+.size {
+  color: brown;
+}
+.rate {
+  color: red;
+}
+
+.cards {
+  display: flex;
+}
+.stock{
+    color: green;
+}
+.cards:hover {
+  cursor: pointer;
+}
+.image_box img {
+  width: 60px;
+  height: 80px;
+}
+
+/*   
+  .details p:nth-child(1) {
+    font-weight: bold;
+  }
+  .details p:nth-child(2) {
+    color: grey;
+    font-size: 0.8rem;
+  }
+  .details p:nth-child(3) {
+    font-weight: bolx;
+    color: grey;
+  } */
+button {
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  background-color: skyblue;
+  outline: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  width: 60%;
+  margin: auto;
+}
+
+.details img {
+  width: 200px;
+  height: 200px;
+  /* margin-right: 5px; */
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+  margin-left: 20px;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+}
+
+/* .details div:nth-child(2) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .details div:nth-child(3) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .details div:nth-child(3) button:hover {
+    background-color: darkseagreen;
+  }
+  .details div:nth-child(3) span {
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+   */
